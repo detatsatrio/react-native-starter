@@ -12,9 +12,9 @@
 1. react-native run-android
 
 ## Configure Library
-react-native-aws3 [Go Here](https://github.com/benjreinhart/react-native-aws3)
-react-native-firebase [Go Here](https://github.com/invertase/react-native-firebase)
-react-native-material-ui [Go Here](https://github.com/xotahal/react-native-material-ui)
-react-native-router-flux [Go Here](https://github.com/aksonov/react-native-router-flux)
-react-native-swiper [Go Here](https://github.com/leecade/react-native-swiper)
-react-native-vector-icons [Go Here](https://github.com/oblador/react-native-vector-icons)
+- react-native-aws3 [Go Here](https://github.com/benjreinhart/react-native-aws3)
+- react-native-firebase [Go Here](https://github.com/invertase/react-native-firebase)
+- react-native-material-ui [Go Here](https://github.com/xotahal/react-native-material-ui)
+- react-native-router-flux [Go Here](https://github.com/aksonov/react-native-router-flux)
+- react-native-swiper [Go Here](https://github.com/leecade/react-native-swiper)
+- react-native-vector-icons [Go Here](https://github.com/oblador/react-native-vector-icons)
