@@ -1,5 +1,11 @@
 import React, { Component } from 'react';
-import Components from '../screens/Components';
+
+import Splash from '../screens/Splash';
+import Navbar from '../screens/Navbar';
+import Login from '../screens/Login';
+import Home from '../screens/Home';
+console.disableYellowBox = true;
+
 import {
   Router,
   Stack,
@@ -11,8 +17,11 @@ class Routes extends Component {
     return (
       <Router>
         <Stack key="root">
-          <Scene key="components" component={Components} hideNavBar initial/>
-        </Stack>
+          <Scene key="splash" component={Splash} hideNavBar />
+          <Scene key="navbar" component={Navbar} hideNavBar />
+          <Scene key="login" component={Login} hideNavBar />
+          <Scene key="home" component={Home} hideNavBar initial/>
+      </Stack>
       </Router>
     );
   }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { TouchableOpacity, View } from 'react-native';
-import { FONT_FAMILY_BOLD, SECOND_COLOR_TWO, SECOND_COLOR_THIRD } from '../config/';
+import { FONT_FAMILY_BOLD, PRIMARY_COLOR, SECOND_COLOR } from '../config/';
 import { Text } from '../core/';
 import { Bubbles } from 'react-native-loader';
 
@@ -26,7 +26,8 @@ export default class Button extends Component {
       return(
         <Text
           style={{
-            color: (this.props.titleStyle) ? this.props.titleStyle.color : 'black',
+            fontFamily: FONT_FAMILY_BOLD,
+            color: (this.props.titleStyle) ? this.props.titleStyle.color : 'white',
             opacity: 0.7
           }}
           >
@@ -37,6 +38,7 @@ export default class Button extends Component {
   }
 
   render(){
+    console.warn(PRIMARY_COLOR);
     return(
       <TouchableOpacity
         {...this.props}
@@ -51,7 +53,7 @@ export default class Button extends Component {
           alignItems: 'center',
           padding: 10,
           opacity: (this.state.disabled) ? 0.5 : 1,
-          backgroundColor: (this.props.transparent) ? "" : this.props.backgroundColor,
+          backgroundColor: PRIMARY_COLOR,
         }}
         disabled={(this.props.disabled) ? this.props.disabled : this.state.disabled}
       >

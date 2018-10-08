@@ -11,3 +11,7 @@
 
 export const APPLICATION_NAME = "Cari Klub"
 export const FONT_FAMILY      = "Muli-Regular"
+
+export const PRIMARY_COLOR    = "#263238"
+export const SECOND_COLOR     = "#F44336"
+export const THIRD_COLOR      = "#FFFFFF"
